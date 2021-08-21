@@ -1,0 +1,43 @@
+2021-08-21 17:33:55,322  INFO [main] openkart application :22 - clicked on register button
+ 2021-08-21 17:33:55,461  INFO [main] openkart application :24 - clicked on the register button
+ 2021-08-21 17:33:57,140  INFO [main] openkart application :27 - entered firstname and lastname
+ 2021-08-21 17:33:57,292  INFO [main] openkart application :32 - entered email address
+ 2021-08-21 17:33:57,420  INFO [main] openkart application :34 - entered the phone number
+ 2021-08-21 17:33:57,658  INFO [main] openkart application :37 - entered the password
+ 2021-08-21 17:33:57,658  INFO [main] openkart application :38 - no newsletter option selected
+ 2021-08-21 17:34:00,250  INFO [main] openkart application :41 - click on the continue button 
+ 2021-08-21 17:34:00,301  INFO [main] openkart application :45 - account created successfully
+ 2021-08-21 17:34:01,602  INFO [main] openkart application :51 - User successfully visited to my account 
+ 2021-08-21 17:34:05,642  INFO [main] openkart application :58 - clicked on register button
+ 2021-08-21 17:34:05,810  INFO [main] openkart application :60 - clicked on the register button
+ 2021-08-21 17:34:07,526  INFO [main] openkart application :63 - entered firstname and lastname
+ 2021-08-21 17:34:07,693  INFO [main] openkart application :68 - entered email address
+ 2021-08-21 17:34:07,818  INFO [main] openkart application :70 - entered the phone number
+ 2021-08-21 17:34:08,067  INFO [main] openkart application :73 - entered the password
+ 2021-08-21 17:34:08,151  INFO [main] openkart application :75 - yes option news letter  selected
+ 2021-08-21 17:34:10,733  INFO [main] openkart application :78 - click on the continue button 
+ 2021-08-21 17:34:13,293  INFO [main] openkart application :81 - clicked on subscribe/unscribe news letter
+ 2021-08-21 17:34:13,348  INFO [main] openkart application :84 - yes option selected sucessfully
+ 2021-08-21 17:34:17,294  INFO [main] openkart application :22 - clicked on register button
+ 2021-08-21 17:34:17,494  INFO [main] openkart application :24 - clicked on the register button
+ 2021-08-21 17:34:19,121  INFO [main] openkart application :27 - entered firstname and lastname
+ 2021-08-21 17:34:19,267  INFO [main] openkart application :32 - entered email address
+ 2021-08-21 17:34:19,384  INFO [main] openkart application :34 - entered the phone number
+ 2021-08-21 17:34:19,639  INFO [main] openkart application :37 - entered the password
+ 2021-08-21 17:34:19,639  INFO [main] openkart application :38 - no newsletter option selected
+ 2021-08-21 17:34:22,314  INFO [main] openkart application :41 - click on the continue button 
+ 2021-08-21 17:34:22,362  INFO [main] openkart application :45 - account created successfully
+ 2021-08-21 17:34:23,608  INFO [main] openkart application :51 - User successfully visited to my account 
+ 2021-08-21 17:34:24,847  INFO [main] openkart application :92 - clicked on subscribe/unscribe news letter
+ 2021-08-21 17:34:24,891  INFO [main] openkart application :95 - NO option is selected successfully
+ 2021-08-21 17:34:31,802  INFO [main] openkart application :107 - Navigate to the register page through login successfully
+ 2021-08-21 17:34:36,192  INFO [main] openkart application :113 - clicked on the register button
+ 2021-08-21 17:34:37,809  INFO [main] openkart application :116 - entered firstname and lastname
+ 2021-08-21 17:34:37,950  INFO [main] openkart application :120 - entered email address
+ 2021-08-21 17:34:38,083  INFO [main] openkart application :123 - entered the phone number
+ 2021-08-21 17:34:38,083  INFO [main] openkart application :125 - different password enterd
+ 2021-08-21 17:34:38,175  INFO [main] openkart application :128 - password---ajay
+ 2021-08-21 17:34:38,276  INFO [main] openkart application :132 - password--1234
+ 2021-08-21 17:34:38,276  INFO [main] openkart application :134 - no newsletter option selected
+ 2021-08-21 17:34:40,037  INFO [main] openkart application :140 - password does not matched message dispalyed
+ 
