@@ -51,7 +51,8 @@ public class Register_page extends Basepage{
 	private WebElement register_text;
 	@FindBy(xpath="//div[contains(text(),'Password confirmation does not match password!')]")
 	private WebElement password_not_match;
-	
+	@FindBy(xpath="//body/div[@id='account-register']/div[1]")
+    private WebElement accoun_already_register;	
 	
 	public Register_page()
 	{
@@ -148,5 +149,10 @@ public class Register_page extends Basepage{
    {
 	  String  not_match= password_not_match.getText();
 	  return not_match;
+   }
+   public Boolean verify_accoun_already_register()
+   {
+	   Boolean textt=accoun_already_register.isDisplayed();
+	   return textt;
    }
 }

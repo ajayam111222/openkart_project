@@ -140,7 +140,38 @@ public class TC_REGISTER_001 extends Basepage
 		 log.info("password does not matched message dispalyed");
 		
 	}
-	
+	@Test(priority=6)
+	public void verifyAccountByProvidingExistingDetails()
+	{
+		 r=new Register_page();
+		log.info("clicked on register button");
+		 r.Myaccount();
+		 log.info("clicked on the register button");
+		 r.register();
+		 r.firstname_lastname("ajay", "am");
+		 log.info("entered firstname and lastname");
+		 
+		 //String email_pass=randomeString()+"@gmail.com";
+		 
+		 r.email("ajayam1234@gmail.com");
+		 log.info("entered email address");
+		 r.phone_number("9353615291");
+		 log.info("entered the phone number");
+		 r.password("ajay1234");
+		 r.confirm_password("ajay1234");
+		 log.info("entered the password");
+		 log.info("no newsletter option selected");
+		 r.privacy();
+		 r.continu();
+		 log.info("click on the continue button ");
+		
+	     Boolean actual_rext= r.verify_accoun_already_register();
+	     Assert.assertTrue(true);
+	     log.info("displyed successfully----account already register ");
+		
+		
+		
+	}
 	
 	
 	

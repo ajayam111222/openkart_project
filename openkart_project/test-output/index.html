@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\Ajay AM\eclipse-workspace\New folder\openkart_project\testng.xml</span>
+                    <span>C:\Users\Ajay AM\git\openkart_project\openkart_project\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +105,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.openkart.Testclass.TC_REGISTER_001" hash-for-method="different_way_navigate_Register">different_way_navigate_Register</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.openkart.Testclass.TC_REGISTER_001" hash-for-method="verifyAccountByProvidingExistingDetails">verifyAccountByProvidingExistingDetails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -154,6 +159,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="verifyAccountByProvidingExistingDetails">
+                  </a> <!-- verifyAccountByProvidingExistingDetails -->
+                  <span class="method-name">verifyAccountByProvidingExistingDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="verify_NO_option_selcted">
                   </a> <!-- verify_NO_option_selcted -->
                   <span class="method-name">verify_NO_option_selcted</span>
@@ -185,7 +197,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Ajay AM\eclipse-workspace\New folder\openkart_project\testng.xml</span>
+            <span class="header-content">C:\Users\Ajay AM\git\openkart_project\openkart_project\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -238,32 +250,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verify_YES_option_selected')
+data.setCell(0, 1, 'verify_NO_option_selcted')
 data.setCell(0, 2, 'com.openkart.Testclass.TC_REGISTER_001')
-data.setCell(0, 3, 7714);
+data.setCell(0, 3, 7666);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verify_NO_option_selcted')
+data.setCell(1, 1, 'verify_YES_option_selected')
 data.setCell(1, 2, 'com.openkart.Testclass.TC_REGISTER_001')
-data.setCell(1, 3, 7600);
+data.setCell(1, 3, 7583);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verify_account_by_providing_all_mandatory_filed')
 data.setCell(2, 2, 'com.openkart.Testclass.TC_REGISTER_001')
-data.setCell(2, 3, 6683);
+data.setCell(2, 3, 6835);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verify_registeraccount_with_differentpassword')
+data.setCell(3, 1, 'verifyAccountByProvidingExistingDetails')
 data.setCell(3, 2, 'com.openkart.Testclass.TC_REGISTER_001')
-data.setCell(3, 3, 4042);
+data.setCell(3, 3, 4164);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'different_way_navigate_Register')
+data.setCell(4, 1, 'verify_registeraccount_with_differentpassword')
 data.setCell(4, 2, 'com.openkart.Testclass.TC_REGISTER_001')
-data.setCell(4, 3, 2844);
+data.setCell(4, 3, 4093);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'different_way_navigate_Register')
+data.setCell(5, 2, 'com.openkart.Testclass.TC_REGISTER_001')
+data.setCell(5, 3, 2825);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <span class="suite-total-time">Total running time: 33 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -296,59 +312,71 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_account_by_providing_all_mandatory_filed</span>
-                <span class="method-start">5210 ms</span>
+                <span class="method-start">5409 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">11913 ms</span>
+                <span class="method-start">12264 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">12196 ms</span>
+                <span class="method-start">12734 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_YES_option_selected</span>
-                <span class="method-start">15924 ms</span>
+                <span class="method-start">17098 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">23640 ms</span>
+                <span class="method-start">24682 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">23833 ms</span>
+                <span class="method-start">24849 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_NO_option_selcted</span>
-                <span class="method-start">27581 ms</span>
+                <span class="method-start">28870 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">35183 ms</span>
+                <span class="method-start">36539 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">35321 ms</span>
+                <span class="method-start">36700 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">different_way_navigate_Register</span>
-                <span class="method-start">39249 ms</span>
+                <span class="method-start">40931 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">42095 ms</span>
+                <span class="method-start">43759 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">42352 ms</span>
+                <span class="method-start">43872 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_registeraccount_with_differentpassword</span>
-                <span class="method-start">46285 ms</span>
+                <span class="method-start">48073 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">50329 ms</span>
+                <span class="method-start">52167 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">52441 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountByProvidingExistingDetails</span>
+                <span class="method-start">56851 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">61016 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
