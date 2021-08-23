@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="suite" >
 <listeners>
 <listener class-name="com.openkart.Utility.Reporting"></listener>
 </listeners>
 <parameter name="browser" value="chrome"></parameter>
-  <test thread-count="5" name="Test">
+  <test  name="Test">
     <classes>
-      <class name="com.openkart.Testclass.TC_REGISTER_001"/>
+
+      <class name="com.openkart.Testclass.TC_Login_001"/>
+    <class name="com.openkart.Testclass.TC_REGISTER_001"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

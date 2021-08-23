@@ -47,7 +47,16 @@ public class Reading_properties {
 		String EDGE=pro.getProperty("edge1");
 		return EDGE;
 	}
-	
+	public String Getusername()
+	{
+		String username=pro.getProperty("username");
+		return username;
+	}
+	public String Getpassword()
+	{
+		String password=pro.getProperty("password");
+		return password;
+	}
 	
 	
 	

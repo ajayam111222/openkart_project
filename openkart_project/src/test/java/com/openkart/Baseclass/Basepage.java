@@ -18,13 +18,18 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 
+import com.openkart.data.XLUtils;
+import com.openkart.Pageobject.Login_page;
+import com.openkart.Pageobject.Register_page;
 import com.openkart.Utility.Reading_properties;
 
 
 
 public class Basepage {
+	
 	public  Reading_properties R;
 	public static WebDriver driver;
 	
@@ -82,6 +87,7 @@ public class Basepage {
 		String generatedString2 = RandomStringUtils.randomNumeric(4);
 		return (generatedString2);
 	}
+	
 	
 	
 	
