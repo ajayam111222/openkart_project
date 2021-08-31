@@ -83,4 +83,72 @@
  2021-08-23 16:47:16,205  INFO [main] openkart application :163 - no newsletter option selected
  2021-08-23 16:47:17,860  INFO [main] openkart application :166 - click on the continue button 
  2021-08-23 16:47:17,924  INFO [main] openkart application :170 - displyed successfully----account already register 
+ 2021-08-23 17:56:38,926  INFO [main] openkart application :17 - Entered  existing Product Name in search box
+ 2021-08-23 17:57:37,115  INFO [main] openkart application :17 - Entered  existing Product Name in search box
+ 2021-08-23 17:57:38,860  INFO [main] openkart application :21 - serched product displyed in search result 
+ 2021-08-25 14:44:15,224  INFO [main] openkart application :17 - Entered  existing Product Name in search box
+ 2021-08-25 14:44:16,686  INFO [main] openkart application :21 - serched product displyed in search result 
+ 2021-08-25 14:44:21,208  INFO [main] openkart application :29 - Entered  existing Product Name in search box
+ 2021-08-25 14:44:22,512  INFO [main] openkart application :33 - user got no product matche warning ----
+ 2021-08-25 16:22:31,389  INFO [main] openkart application :17 - Entered  existing Product Name in search box
+ 2021-08-25 16:22:33,758  INFO [main] openkart application :21 - serched product displyed in search result 
+ 2021-08-25 16:22:38,221  INFO [main] openkart application :29 - Entered Non existing Product Name in search box
+ 2021-08-25 16:22:39,940  INFO [main] openkart application :33 - user got no product matche warning ----
+ 2021-08-25 16:22:44,348  INFO [main] openkart application :42 - Entered No Product Name in search box
+ 2021-08-25 16:22:45,757  INFO [main] openkart application :46 - user got no product matche warning ----
+ 2021-08-25 16:22:49,989  INFO [main] openkart application :55 - Entered Non existing Product Name in search box
+ 2021-08-25 16:22:57,607  INFO [main] openkart application :82 - SerchCreteria placeholder name found as per expectation
+ 2021-08-25 16:22:57,659  INFO [main] openkart application :86 - Serch placeholder name found as per expectation
+ 2021-08-25 16:23:06,761  INFO [main] openkart application :98 -  Product found in serch result as per expectation --By serchin the existing prodduct on search createria field
+ 2021-08-25 16:31:56,464  INFO [main] openkart application :55 - Entered Non existing Product Name in search box
+ 2021-08-25 16:31:58,413  INFO [main] openkart application :63 - imac product displyed
+ 2021-08-25 16:31:58,414  INFO [main] openkart application :71 - more than one product displayed
+ 2021-08-25 16:36:25,313  INFO [main] openkart application :55 - Entered mac Product Name in search box
+ 2021-08-25 16:36:27,076  INFO [main] openkart application :65 - imac product displyed
+ 2021-08-25 16:36:27,076  INFO [main] openkart application :74 - more than one product displayed
+ 2021-08-25 16:38:54,753  INFO [main] openkart application :55 - Entered mac Product Name in search box
+ 2021-08-25 16:38:56,768  INFO [main] openkart application :65 - imac product displyed
+ 2021-08-25 16:38:56,769  INFO [main] openkart application :74 - more than one product displayed
+ 2021-08-25 16:42:02,816  INFO [main] openkart application :55 - Entered mac Product Name in search box
+ 2021-08-25 16:42:04,859  INFO [main] openkart application :64 - imac product displyed
+ 2021-08-25 16:42:04,859  INFO [main] openkart application :70 - MacBook product is displyed
+ 2021-08-25 16:42:04,860  INFO [main] openkart application :73 - more than one product displayed
+ 2021-08-25 16:43:10,979  INFO [main] openkart application :55 - Entered mac Product Name in search box
+ 2021-08-25 16:43:13,033  INFO [main] openkart application :73 - more than one product displayed
+ 2021-08-25 16:44:09,096  INFO [main] openkart application :55 - Entered mac Product Name in search box
+ 2021-08-25 16:48:32,030  INFO [main] openkart application :55 - Entered mac Product Name in search box
+ 2021-08-25 16:49:22,763  INFO [main] openkart application :55 - Entered mac Product Name in search box
+ 2021-08-25 16:49:25,541  INFO [main] openkart application :64 - more than one product displayed
+ 2021-08-25 17:58:33,104  INFO [main] openkart application :103 - Product is found in  serch result as per expectation by selecting Mac in category list  
+ 2021-08-25 18:07:36,219  INFO [main] openkart application :103 - Product is found in  serch result as per expectation by selecting Mac in category list  
+ 2021-08-25 18:07:37,714  INFO [main] openkart application :108 - user got no product matche warning ----
+ 2021-08-25 18:41:47,890  INFO [main] openkart application :103 - Product is found in  serch result as per expectation by selecting Mac in category list  
+ 2021-08-25 18:41:49,487  INFO [main] openkart application :108 - user got no product matche warning as per expectation by selecting incorrect category ----
+ 2021-08-25 18:41:57,828  INFO [main] openkart application :121 - user got no product matche warning as per expectation by selecting desktop category ----
+ 2021-08-25 18:41:59,513  INFO [main] openkart application :126 - Product is found in  serch result as per expectation by selecting subcategory button again by clicking on search button 
+ 2021-08-25 18:43:50,040  INFO [main] openkart application :103 - Product is found in  serch result as per expectation by selecting Mac in category list  
+ 2021-08-25 18:43:51,762  INFO [main] openkart application :108 - user got no product matche warning as per expectation by selecting incorrect category ----
+ 2021-08-25 18:44:07,519  INFO [main] openkart application :121 - user got no product matche warning as per expectation by selecting desktop category ----
+ 2021-08-25 18:44:09,654  INFO [main] openkart application :126 - Product is found in  serch result as per expectation by selecting subcategory button, again by clicking on search button 
+ 2021-08-25 18:44:24,886  INFO [main] openkart application :17 - Entered  existing Product Name in search box
+ 2021-08-25 18:44:27,245  INFO [main] openkart application :21 - serched product displyed in search result 
+ 2021-08-25 18:44:31,594  INFO [main] openkart application :29 - Entered Non existing Product Name in search box
+ 2021-08-25 18:44:33,087  INFO [main] openkart application :33 - user got no product matche warning ----
+ 2021-08-25 18:44:37,466  INFO [main] openkart application :42 - Entered No Product Name in search box
+ 2021-08-25 18:44:38,836  INFO [main] openkart application :46 - user got no product matche warning ----
+ 2021-08-25 18:44:43,283  INFO [main] openkart application :55 - Entered mac Product Name in search box
+ 2021-08-25 18:44:45,178  INFO [main] openkart application :64 - more than one product displayed
+ 2021-08-25 18:44:51,275  INFO [main] openkart application :74 - SerchCreteria placeholder name found as per expectation
+ 2021-08-25 18:44:51,319  INFO [main] openkart application :78 - Serch placeholder name found as per expectation
+ 2021-08-25 18:44:59,044  INFO [main] openkart application :90 -  Product found in serch result as per expectation --By serchin the existing prodduct on search createria field
+ 2021-08-31 13:05:08,355  INFO [main] openkart application :191 - more than one product is displayed
+ 2021-08-31 13:11:44,845  INFO [main] openkart application :191 - more than one product is displayed
+ 2021-08-31 13:13:56,742  INFO [main] openkart application :191 - more than one product is displayed
+ 2021-08-31 13:17:24,764  INFO [main] openkart application :191 - more than one product is displayed
+ 2021-08-31 13:21:09,428  INFO [main] openkart application :191 - more than one product is displayed
+ 2021-08-31 13:25:14,399  INFO [main] openkart application :191 - more than one product is displayed
+ 2021-08-31 13:30:17,653  INFO [main] openkart application :191 - more than one product is displayed
+ 2021-08-31 13:31:20,949  INFO [main] openkart application :191 - more than one product is displayed
+ 2021-08-31 13:33:36,120  INFO [main] openkart application :191 - more than one product is displayed
+ 2021-08-31 13:35:02,549  INFO [main] openkart application :191 - more than one product is displayed
  

@@ -7,13 +7,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.openkart.Testclass.TC_Login_001">
+      <class name="com.openkart.Testclass.TC_ProductSearch">
         <methods>
+          <include name="VerifyUserAbleToSortTheProductsDisplayedintheSearchResults"/>
           <include name="teardown"/>
-          <include name="VerifyLoginWithInvalidCredential" invocation-numbers="1"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.openkart.Testclass.TC_Login_001 -->
+      </class> <!-- com.openkart.Testclass.TC_ProductSearch -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [suite] -->

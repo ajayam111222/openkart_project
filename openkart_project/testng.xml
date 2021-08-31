@@ -8,8 +8,9 @@
   <test  name="Test">
     <classes>
 
-      <class name="com.openkart.Testclass.TC_Login_001"/>
-    <class name="com.openkart.Testclass.TC_REGISTER_001"/> 
+   <!--  <class name="com.openkart.Testclass.TC_Login_001"/>
+    <class name="com.openkart.Testclass.TC_REGISTER_001"/> -->   
+     <class name="com.openkart.Testclass.TC_ProductSearch"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
