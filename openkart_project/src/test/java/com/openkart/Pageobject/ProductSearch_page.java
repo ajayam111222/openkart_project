@@ -3,6 +3,7 @@ package com.openkart.Pageobject;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -201,7 +202,7 @@ public class ProductSearch_page extends Basepage {
 		
 		List temp=new ArrayList();
 		temp.addAll(sortedproduct);
-		Collections.sort(temp,Collections.reverseOrder());
+		//Collections.sort(temp,Collections.reverseOrder());
 		System.out.println(temp);
 		System.out.println(sortedproduct);
 		
@@ -213,6 +214,8 @@ public class ProductSearch_page extends Basepage {
 		{
 			return false;
 		}
+		
+		
 		
 	
 	}

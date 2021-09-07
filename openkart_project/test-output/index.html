@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.openkart.Testclass.TC_ProductSearch" hash-for-method="VerifyUserAbleToSortTheProductsDisplayedintheSearchResults">VerifyUserAbleToSortTheProductsDisplayedintheSearchResults</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.openkart.Testclass.TC_ProductDisplay" hash-for-method="VerifyRatingSucessMessage">VerifyRatingSucessMessage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-suite -->
@@ -122,18 +122,18 @@
           <div class="suite-suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.openkart.Testclass.TC_ProductSearch</span>
+              <span class="class-name">com.openkart.Testclass.TC_ProductDisplay</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyUserAbleToSortTheProductsDisplayedintheSearchResults">
-                  </a> <!-- VerifyUserAbleToSortTheProductsDisplayedintheSearchResults -->
-                  <span class="method-name">VerifyUserAbleToSortTheProductsDisplayedintheSearchResults</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.openkart.Testclass.TC_ProductSearch.VerifyUserAbleToSortTheProductsDisplayedintheSearchResults(TC_ProductSearch.java:201)
+                  <a name="VerifyRatingSucessMessage">
+                  </a> <!-- VerifyRatingSucessMessage -->
+                  <span class="method-name">VerifyRatingSucessMessage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [ Thank you for your review. It has been submitted to the webmaster for approval.] but found [Your Name]
+	at com.openkart.Testclass.TC_ProductDisplay.VerifyRatingSucessMessage(TC_ProductDisplay.java:63)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 32 stack frames
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -155,7 +155,7 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.openkart.Testclass.TC_ProductSearch&quot;/&gt;
+      &lt;class name=&quot;com.openkart.Testclass.TC_ProductDisplay&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- suite --&gt;
@@ -197,14 +197,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VerifyUserAbleToSortTheProductsDisplayedintheSearchResults')
-data.setCell(0, 2, 'com.openkart.Testclass.TC_ProductSearch')
-data.setCell(0, 3, 5897);
+data.setCell(0, 1, 'VerifyRatingSucessMessage')
+data.setCell(0, 2, 'com.openkart.Testclass.TC_ProductDisplay')
+data.setCell(0, 3, 19749);
 window.suiteTableData['suite']= { tableData: data, tableDiv: 'times-div-suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-suite">
               </div> <!-- times-div-suite -->
             </div> <!-- times-div -->
@@ -219,29 +219,17 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">9 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.openkart.Testclass.TC_ProductSearch</span>
+              <span class="ignored-class-name">com.openkart.Testclass.TC_ProductDisplay</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">VerifySearchingWithNonExistingProductName_002</span>
+                <span class="ignored-method-name">VerifyAvailabilityStatus</span>
                 <br/>
-                <span class="ignored-method-name">VerifySearchingWithExistingProductName_001</span>
+                <span class="ignored-method-name">VerifyTheBrandNameCodeProductName_001</span>
                 <br/>
-                <span class="ignored-method-name">VerifySearchBySelectingToSearchInSubcategories_008</span>
-                <br/>
-                <span class="ignored-method-name">VerifySearchingWithoutAnyValue_003</span>
-                <br/>
-                <span class="ignored-method-name">VerifyTheMultipleProductDisplay_004</span>
-                <br/>
-                <span class="ignored-method-name">VerifySerchUsingSerchFieldCreteria_006</span>
-                <br/>
-                <span class="ignored-method-name">VerifySearchBySelectingTheCategoryOfProduct_007</span>
-                <br/>
-                <span class="ignored-method-name">VerifySerchCreteriaAndSearchPlaceholder_005</span>
-                <br/>
-                <span class="ignored-method-name">VerifyListandGridViewsWhenOnlyOneProductDisplayedInTheSearchResults_009</span>
+                <span class="ignored-method-name">VerifyTheDefaultQuantiyOne</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -253,7 +241,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.openkart.Testclass.TC_ProductSearch</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.openkart.Testclass.TC_ProductDisplay</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
@@ -261,12 +249,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">VerifyUserAbleToSortTheProductsDisplayedintheSearchResults</span>
-                <span class="method-start">8452 ms</span>
+                <span class="method-name">VerifyRatingSucessMessage</span>
+                <span class="method-start">10188 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">14368 ms</span>
+                <span class="method-start">30029 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

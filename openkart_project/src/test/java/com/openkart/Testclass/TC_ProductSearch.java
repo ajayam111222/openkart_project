@@ -9,7 +9,7 @@ import com.openkart.Pageobject.ProductSearch_page;
 public class TC_ProductSearch extends Basepage{
 	ProductSearch_page p;
 	
-	@Test(priority=1,enabled=false)
+	@Test(priority=1)
 	public void VerifySearchingWithExistingProductName_001()
 	{
 		 p=new ProductSearch_page();
@@ -21,7 +21,7 @@ public class TC_ProductSearch extends Basepage{
 		 log.info("serched product displyed in search result ");
 		 
 	}
-	@Test(priority=2,enabled=false)
+	@Test(priority=2)
 	public void VerifySearchingWithNonExistingProductName_002()
 	{
 		 p=new ProductSearch_page();
@@ -34,7 +34,7 @@ public class TC_ProductSearch extends Basepage{
 		
 	}
 	
-	@Test(priority=3,enabled=false)
+	@Test(priority=3)
 	public void VerifySearchingWithoutAnyValue_003()
 	{
 		 p=new ProductSearch_page();
@@ -47,7 +47,7 @@ public class TC_ProductSearch extends Basepage{
 		
 		
 	}
-	@Test(priority=4,enabled=false)
+	@Test(priority=4)
 	public void VerifyTheMultipleProductDisplay_004()
 	{
 		 p=new ProductSearch_page();
@@ -63,7 +63,7 @@ public class TC_ProductSearch extends Basepage{
 		 Assert.assertEquals(MacBook, "MacBook Air");
 		 log.info("more than one product displayed");
 	}
-	@Test(priority=5,enabled=false)
+	@Test(priority=5)
 	public void VerifySerchCreteriaAndSearchPlaceholder_005()
 	{
 		 p=new ProductSearch_page();
@@ -77,7 +77,7 @@ public class TC_ProductSearch extends Basepage{
       Assert.assertEquals(A_search, "Search");
       log.info("Serch placeholder name found as per expectation");
       }
-	@Test(priority=6,enabled=false)
+	@Test(priority=6)
 	public void VerifySerchUsingSerchFieldCreteria_006()
 	{
 		 p=new ProductSearch_page();
@@ -89,7 +89,7 @@ public class TC_ProductSearch extends Basepage{
     Assert.assertEquals(A_text, "iMac");
     log.info(" Product found in serch result as per expectation --By serchin the existing prodduct on search createria field");
 	}
-	@Test(priority=7,enabled=false)
+	@Test(priority=7)
 	public void VerifySearchBySelectingTheCategoryOfProduct_007() 
 	{
 		 p=new ProductSearch_page();
@@ -107,7 +107,7 @@ public class TC_ProductSearch extends Basepage{
 		 Assert.assertEquals(Actual_displyed,"There is no product that matches the search criteria.");
 		 log.info("user got no product matche warning as per expectation by selecting incorrect category ----");
 	}
-	@Test(priority=8,enabled=false)
+	@Test(priority=8)
 	public void VerifySearchBySelectingToSearchInSubcategories_008()
 	{
 		p=new ProductSearch_page();
@@ -125,7 +125,7 @@ public class TC_ProductSearch extends Basepage{
 		 Assert.assertEquals(mac, "iMac");
 		 log.info("Product is found in  serch result as per expectation by selecting subcategory button, again by clicking on search button ");
 	}
-	@Test(priority=9,enabled=false)
+	@Test(priority=9)
 	public void VerifyListandGridViewsWhenOnlyOneProductDisplayedInTheSearchResults_009()
 	{
 		
@@ -133,47 +133,45 @@ public class TC_ProductSearch extends Basepage{
 		 p.SearchBox("iMac");
 		 p.searchicon();
 		 p.SingleProductInList();
-	Boolean A_product=p.SingleProduct();
-	Assert.assertTrue(true);
+		 Boolean A_product=p.SingleProduct();
+	     Assert.assertTrue(true);
 	
-    Boolean A_display=p.AddtoCart();
-    Assert.assertTrue(true);
+         Boolean A_display=p.AddtoCart();
+         Assert.assertTrue(true);
     
 
-String A_addtolist=p.AddToWishList();
-Assert.assertEquals(A_addtolist, "Add to Wish List");
+         String A_addtolist=p.AddToWishList();
+         Assert.assertEquals(A_addtolist, "Add to Wish List");
 
 //String A_comparetolist=p.CompareThisProduct();
 //Assert.assertEquals(A_comparetolist,"Compare this Product");
 
- p.clickOnImage();
- String A_store=p.YourStore();
- Assert.assertEquals(A_store,"Your Store");
+        p.clickOnImage();
+        String A_store=p.YourStore();
+        Assert.assertEquals(A_store,"Your Store");
+        p.SearchBox("iMac");
+        p.searchicon();
+        p.SelectGride();
  
- 
- p.SearchBox("iMac");
- p.searchicon();
- p.SelectGride();
- 
- Boolean A_product1=p.SingleProduct();
-	Assert.assertTrue(true);
+        Boolean A_product1=p.SingleProduct();
+	    Assert.assertTrue(true);
 	
- Boolean A_display1=p.AddtoCart();
- Assert.assertTrue(true);
+        Boolean A_display1=p.AddtoCart();
+        Assert.assertTrue(true);
  
 
-String A_addtolist1=p.AddToWishList();
-Assert.assertEquals(A_addtolist1, "Add to Wish List");
+        String A_addtolist1=p.AddToWishList();
+        Assert.assertEquals(A_addtolist1, "Add to Wish List");
 //String A_comparetolist1=p.CompareThisProduct();
 //Assert.assertEquals(A_comparetolist1,"Compare this Product");
 
-     p.clickOnImage();
-String A_store1=p.YourStore();
-Assert.assertEquals(A_store1,"Your Store");
+        p.clickOnImage();
+        String A_store1=p.YourStore();
+        Assert.assertEquals(A_store1,"Your Store");
  
 }
 
-	@Test
+	@Test(priority=10)
 	public void VerifyUserAbleToSortTheProductsDisplayedintheSearchResults() throws InterruptedException
 	{
 		Boolean expectedList=true;
@@ -183,7 +181,7 @@ Assert.assertEquals(A_store1,"Your Store");
 		 p.SerchCreteriaField("");
 		 p.SerchField_Icon();
 		 p.SelectGride();
-        int  ListOfProduct=p.VerifyOneMoreProduct().size();
+         int  ListOfProduct=p.VerifyOneMoreProduct().size();
         
          if(ListOfProduct>3)
          {
@@ -200,12 +198,7 @@ Assert.assertEquals(A_store1,"Your Store");
          
          Assert.assertEquals(actuallist, expectedList);
          
-         
-         
-         
-
-		
-	}
+         }
 	
 	
 	

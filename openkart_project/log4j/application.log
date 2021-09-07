@@ -151,4 +151,20 @@
  2021-08-31 13:31:20,949  INFO [main] openkart application :191 - more than one product is displayed
  2021-08-31 13:33:36,120  INFO [main] openkart application :191 - more than one product is displayed
  2021-08-31 13:35:02,549  INFO [main] openkart application :191 - more than one product is displayed
+ 2021-09-01 20:14:04,793  INFO [main] openkart application :17 - Entered  existing Product Name in search box
+ 2021-09-01 20:14:07,510  INFO [main] openkart application :21 - serched product displyed in search result 
+ 2021-09-01 20:14:12,217  INFO [main] openkart application :29 - Entered Non existing Product Name in search box
+ 2021-09-01 20:14:13,958  INFO [main] openkart application :33 - user got no product matche warning ----
+ 2021-09-01 20:14:18,663  INFO [main] openkart application :42 - Entered No Product Name in search box
+ 2021-09-01 20:14:20,310  INFO [main] openkart application :46 - user got no product matche warning ----
+ 2021-09-01 20:14:25,512  INFO [main] openkart application :55 - Entered mac Product Name in search box
+ 2021-09-01 20:14:27,763  INFO [main] openkart application :64 - more than one product displayed
+ 2021-09-01 20:14:34,083  INFO [main] openkart application :74 - SerchCreteria placeholder name found as per expectation
+ 2021-09-01 20:14:34,140  INFO [main] openkart application :78 - Serch placeholder name found as per expectation
+ 2021-09-01 20:14:42,783  INFO [main] openkart application :90 -  Product found in serch result as per expectation --By serchin the existing prodduct on search createria field
+ 2021-09-01 20:14:52,107  INFO [main] openkart application :103 - Product is found in  serch result as per expectation by selecting Mac in category list  
+ 2021-09-01 20:14:53,923  INFO [main] openkart application :108 - user got no product matche warning as per expectation by selecting incorrect category ----
+ 2021-09-01 20:15:02,984  INFO [main] openkart application :121 - user got no product matche warning as per expectation by selecting desktop category ----
+ 2021-09-01 20:15:05,118  INFO [main] openkart application :126 - Product is found in  serch result as per expectation by selecting subcategory button, again by clicking on search button 
+ 2021-09-01 20:15:31,661  INFO [main] openkart application :189 - more than one product is displayed
  

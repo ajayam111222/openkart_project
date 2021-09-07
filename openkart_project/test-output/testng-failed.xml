@@ -7,13 +7,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.openkart.Testclass.TC_ProductSearch">
+      <class name="com.openkart.Testclass.TC_ProductDisplay">
         <methods>
-          <include name="VerifyUserAbleToSortTheProductsDisplayedintheSearchResults"/>
           <include name="teardown"/>
+          <include name="VerifyRatingSucessMessage"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.openkart.Testclass.TC_ProductSearch -->
+      </class> <!-- com.openkart.Testclass.TC_ProductDisplay -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [suite] -->
