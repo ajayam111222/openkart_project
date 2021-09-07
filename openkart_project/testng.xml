@@ -4,14 +4,15 @@
 <listeners>
 <listener class-name="com.openkart.Utility.Reporting"></listener>
 </listeners>
-<parameter name="browser" value="chrome"></parameter>
+<parameter name="browser" value="firefox"></parameter>
   <test  name="Test">
     <classes>
 
    <!--  <class name="com.openkart.Testclass.TC_Login_001"/>
     <class name="com.openkart.Testclass.TC_REGISTER_001"/>   
-     <class name="com.openkart.Testclass.TC_ProductSearch"/>-->
-     <class name="com.openkart.Testclass.TC_ProductDisplay"/>   
+     <class name="com.openkart.Testclass.TC_ProductSearch"/>
+     <class name="com.openkart.Testclass.TC_ProductDisplay"/>--> 
+     <class name="com.openkart.Testclass.TC_AddToCart"/>  
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
