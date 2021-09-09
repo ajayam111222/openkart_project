@@ -167,4 +167,11 @@
  2021-09-01 20:15:02,984  INFO [main] openkart application :121 - user got no product matche warning as per expectation by selecting desktop category ----
  2021-09-01 20:15:05,118  INFO [main] openkart application :126 - Product is found in  serch result as per expectation by selecting subcategory button, again by clicking on search button 
  2021-09-01 20:15:31,661  INFO [main] openkart application :189 - more than one product is displayed
+ 2021-09-07 15:09:17,700  INFO [main] openkart application :26 - product is added to shopping cart successfully 
+ 2021-09-07 15:09:40,313  INFO [main] openkart application :40 - product is added to shopping cart successfully 
+ 2021-09-07 17:10:50,545  INFO [main] openkart application :36 - product successfully added to wishlist
+ 2021-09-09 21:14:38,807  INFO [main] openkart application :51 - product successfully added to wishlist
+ 2021-09-09 21:16:44,154  INFO [main] openkart application :51 - product successfully added to wishlist
+ 2021-09-09 21:18:49,272  INFO [main] openkart application :51 - product successfully added to wishlist
+ 2021-09-09 21:19:07,168  INFO [main] openkart application :37 - product successfully added to wishlist
  

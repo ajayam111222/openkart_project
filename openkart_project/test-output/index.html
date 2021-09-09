@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,12 @@
                     <div class="method-list-content passed suite-suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.openkart.Testclass.TC_AddToCart" hash-for-method="VerifyAddingProductToCartFromSearchResultsPage_002">VerifyAddingProductToCartFromSearchResultsPage_002</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.openkart.Testclass.TC_WishList" hash-for-method="VerifyAddingProductWishListFromFeaturedOption_002">VerifyAddingProductWishListFromFeaturedOption_002</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.openkart.Testclass.TC_WishList" hash-for-method="VerifyAddingProductWishList_001">VerifyAddingProductWishList_001</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-suite -->
@@ -122,14 +127,21 @@
           <div class="suite-suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.openkart.Testclass.TC_AddToCart</span>
+              <span class="class-name">com.openkart.Testclass.TC_WishList</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyAddingProductToCartFromSearchResultsPage_002">
-                  </a> <!-- VerifyAddingProductToCartFromSearchResultsPage_002 -->
-                  <span class="method-name">VerifyAddingProductToCartFromSearchResultsPage_002</span>
+                  <a name="VerifyAddingProductWishListFromFeaturedOption_002">
+                  </a> <!-- VerifyAddingProductWishListFromFeaturedOption_002 -->
+                  <span class="method-name">VerifyAddingProductWishListFromFeaturedOption_002</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddingProductWishList_001">
+                  </a> <!-- VerifyAddingProductWishList_001 -->
+                  <span class="method-name">VerifyAddingProductWishList_001</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -144,13 +156,13 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;suite&quot;&gt;
-  &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.openkart.Utility.Reporting&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.openkart.Testclass.TC_AddToCart&quot;/&gt;
+      &lt;class name=&quot;com.openkart.Testclass.TC_WishList&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- suite --&gt;
@@ -190,16 +202,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VerifyAddingProductToCartFromSearchResultsPage_002')
-data.setCell(0, 2, 'com.openkart.Testclass.TC_AddToCart')
-data.setCell(0, 3, 5633);
+data.setCell(0, 1, 'VerifyAddingProductWishList_001')
+data.setCell(0, 2, 'com.openkart.Testclass.TC_WishList')
+data.setCell(0, 3, 13858);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyAddingProductWishListFromFeaturedOption_002')
+data.setCell(1, 2, 'com.openkart.Testclass.TC_WishList')
+data.setCell(1, 3, 8647);
 window.suiteTableData['suite']= { tableData: data, tableDiv: 'times-div-suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-suite">
               </div> <!-- times-div-suite -->
             </div> <!-- times-div -->
@@ -214,16 +230,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.openkart.Testclass.TC_AddToCart</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">VerifyAddToCart_001</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-suite" class="panel">
@@ -232,18 +241,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.openkart.Testclass.TC_AddToCart</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.openkart.Testclass.TC_WishList</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup(firefox)</span>
+                <span class="method-name">setup(edge)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">VerifyAddingProductToCartFromSearchResultsPage_002</span>
-                <span class="method-start">11252 ms</span>
+                <span class="method-name">VerifyAddingProductWishListFromFeaturedOption_002</span>
+                <span class="method-start">5428 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">16913 ms</span>
+                <span class="method-start">14098 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">14319 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddingProductWishList_001</span>
+                <span class="method-start">18108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">31969 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

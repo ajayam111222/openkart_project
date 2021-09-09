@@ -1,5 +1,6 @@
 package com.openkart.Pageobject;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -63,7 +64,9 @@ public class Register_page extends Basepage{
 	
 	public void Myaccount()
 	{
-		Myaccount.click();
+		//Myaccount.click();
+		JavascriptExecutor executor = (JavascriptExecutor)driver;
+		executor.executeScript("arguments[0].click();",Myaccount);
 	}
 	public void register()
 	{

@@ -1,32 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="suite" duration-ms="18779" started-at="2021-09-07T14:51:42 IST" finished-at="2021-09-07T14:52:01 IST">
+  <suite name="suite" duration-ms="32433" started-at="2021-09-09T21:18:34 IST" finished-at="2021-09-09T21:19:07 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18779" started-at="2021-09-07T14:51:42 IST" finished-at="2021-09-07T14:52:01 IST">
-      <class name="com.openkart.Testclass.TC_AddToCart">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.openkart.Testclass.TC_AddToCart@5ed828d]" name="setup" is-config="true" duration-ms="11250" started-at="2021-09-07T14:51:42 IST" finished-at="2021-09-07T14:51:54 IST">
+    <test name="Test" duration-ms="32433" started-at="2021-09-09T21:18:34 IST" finished-at="2021-09-09T21:19:07 IST">
+      <class name="com.openkart.Testclass.TC_WishList">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.openkart.Testclass.TC_WishList@5ed828d]" name="setup" is-config="true" duration-ms="5427" started-at="2021-09-09T21:18:35 IST" finished-at="2021-09-09T21:18:40 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VerifyAddingProductToCartFromSearchResultsPage_002()[pri:2, instance:com.openkart.Testclass.TC_AddToCart@5ed828d]" name="VerifyAddingProductToCartFromSearchResultsPage_002" duration-ms="5633" started-at="2021-09-07T14:51:54 IST" finished-at="2021-09-07T14:51:59 IST">
+        <test-method status="PASS" signature="VerifyAddingProductWishListFromFeaturedOption_002()[pri:0, instance:com.openkart.Testclass.TC_WishList@5ed828d]" name="VerifyAddingProductWishListFromFeaturedOption_002" duration-ms="8647" started-at="2021-09-09T21:18:40 IST" finished-at="2021-09-09T21:18:49 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyAddingProductToCartFromSearchResultsPage_002 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.openkart.Testclass.TC_AddToCart@5ed828d]" name="teardown" is-config="true" duration-ms="1412" started-at="2021-09-07T14:51:59 IST" finished-at="2021-09-07T14:52:01 IST">
+        </test-method> <!-- VerifyAddingProductWishListFromFeaturedOption_002 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.openkart.Testclass.TC_WishList@5ed828d]" name="teardown" is-config="true" duration-ms="220" started-at="2021-09-09T21:18:49 IST" finished-at="2021-09-09T21:18:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.openkart.Testclass.TC_AddToCart -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.openkart.Testclass.TC_WishList@5ed828d]" name="setup" is-config="true" duration-ms="3788" started-at="2021-09-09T21:18:49 IST" finished-at="2021-09-09T21:18:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyAddingProductWishList_001()[pri:0, instance:com.openkart.Testclass.TC_WishList@5ed828d]" name="VerifyAddingProductWishList_001" duration-ms="13858" started-at="2021-09-09T21:18:53 IST" finished-at="2021-09-09T21:19:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddingProductWishList_001 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.openkart.Testclass.TC_WishList@5ed828d]" name="teardown" is-config="true" duration-ms="210" started-at="2021-09-09T21:19:07 IST" finished-at="2021-09-09T21:19:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.openkart.Testclass.TC_WishList -->
     </test> <!-- Test -->
   </suite> <!-- suite -->
 </testng-results>

@@ -34,12 +34,20 @@ public class Login_page extends Basepage{
     private WebElement ForgotPassworedLink;
     @FindBy(css=" div.container:nth-child(4) div.row div.col-sm-9 div.row div.col-sm-6:nth-child(2) div.well form:nth-child(3) div.form-group:nth-child(2) > a:nth-child(3)")
     private WebElement ForgotPassworedLink1;
+    @FindBy(xpath="//span[contains(text(),'My Account')]")
+	private WebElement Myaccount;
    
     
     public Login_page()
     {
     	PageFactory.initElements(driver, this);
     }
+    public void Myaccount()
+	{
+		//Myaccount.click();
+    	 JavascriptExecutor executor = (JavascriptExecutor)driver;
+  	    executor.executeScript("arguments[0].click();",Myaccount);
+	}
 
 	public void click_login()
 	{
@@ -54,8 +62,7 @@ public class Login_page extends Basepage{
 	public void submitt()
 	{
 		submit.click();
-//		JavascriptExecutor js=(JavascriptExecutor)driver;
-//		js.executeScript("arguments&#91;0].click();", submit);
+
 	}
 	public String getWarningMessage()
 	{

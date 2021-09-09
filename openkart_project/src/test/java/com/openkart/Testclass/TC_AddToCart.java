@@ -9,7 +9,7 @@ import com.openkart.Pageobject.AddToCart_Page;
 public class TC_AddToCart extends Basepage{
 	AddToCart_Page a;
 	Boolean Expected=true;
-	@Test(priority=1,enabled=false)
+	@Test(priority=1,enabled=true)
 	public void VerifyAddToCart_001() throws InterruptedException
 	{
 		a=new AddToCart_Page();
@@ -23,6 +23,7 @@ Assert.assertEquals(ActualDisply, Expected);
         a.ShopingCartLink();
 Boolean Act_displayed=a.ProductInShopingCart();
 Assert.assertTrue(Act_displayed, "iMac");
+log.info("product is added to shopping cart successfully ");
 		
 	}
 	@Test(priority=2)
@@ -36,6 +37,7 @@ Assert.assertTrue(Act_displayed, "iMac");
 		a.ViewCart();
 Boolean Act_displayed=a.ProductInShopingCart();
 Assert.assertTrue(Act_displayed, "iMac");
+log.info("product is added to shopping cart successfully ");
 		
 	}
 

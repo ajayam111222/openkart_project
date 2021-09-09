@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [suite]">
-  <parameter name="browser" value="firefox"/>
+  <parameter name="browser" value="edge"/>
   <listeners>
     <listener class-name="com.openkart.Utility.Reporting"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.openkart.Testclass.TC_AddToCart">
+      <class name="com.openkart.Testclass.TC_WishList">
         <methods>
+          <include name="VerifyAddingProductWishListFromFeaturedOption_002"/>
           <include name="teardown"/>
-          <include name="VerifyAddingProductToCartFromSearchResultsPage_002"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.openkart.Testclass.TC_AddToCart -->
+      </class> <!-- com.openkart.Testclass.TC_WishList -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [suite] -->
