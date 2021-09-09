@@ -16,7 +16,7 @@ public class TC_REGISTER extends Basepage
 	Register_page r;
 	
 	@Test(priority=1)
-	public void verify_account_by_providing_all_mandatory_filed()
+	public void verify_account_by_providing_all_mandatory_filed_001()
 	{
 		 r=new Register_page();
 		 log.info("clicked on register button");
@@ -52,7 +52,7 @@ public class TC_REGISTER extends Basepage
 	}
 	
 	@Test(priority=2)
-	public void verify_YES_option_selected()
+	public void verify_YES_option_selected_002()
 	{
 		r=new Register_page();
 		 log.info("clicked on register button");
@@ -84,9 +84,9 @@ public class TC_REGISTER extends Basepage
 		 log.info("yes option selected sucessfully");
 		}
 	@Test(priority=3)
-     public void verify_NO_option_selcted()
+     public void verify_NO_option_selcted_003()
 	  {
-		verify_account_by_providing_all_mandatory_filed();
+		verify_account_by_providing_all_mandatory_filed_001();
 		
 		r.subscribe_unscibe_newsletter();
 		log.info("clicked on subscribe/unscribe news letter");
@@ -97,7 +97,7 @@ public class TC_REGISTER extends Basepage
 	  }
 	
 	@Test(priority=4)
-	public void different_way_navigate_Register()
+	public void different_way_navigate_Register_004()
 	{   r=new Register_page();
 		r.Myaccount();
 		r.login();
@@ -107,7 +107,7 @@ public class TC_REGISTER extends Basepage
 		log.info("Navigate to the register page through login successfully");
 	}
 	@Test(priority=5)
-	public void verify_registeraccount_with_differentpassword()
+	public void verify_registeraccount_with_differentpassword_005()
 	{    r=new Register_page();
 		 r.Myaccount();
 		 log.info("clicked on the register button");
@@ -141,7 +141,7 @@ public class TC_REGISTER extends Basepage
 		
 	}
 	@Test(priority=6)
-	public void verifyAccountByProvidingExistingDetails()
+	public void verifyAccountByProvidingExistingDetails_006()
 	{
 		 r=new Register_page();
 		log.info("clicked on register button");

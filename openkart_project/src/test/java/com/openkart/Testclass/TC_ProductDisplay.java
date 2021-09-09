@@ -9,7 +9,7 @@ import com.openkart.Pageobject.ProductDisplay_Page;
 public class TC_ProductDisplay extends Basepage{
 	Boolean expected=true;
 	ProductDisplay_Page p;
-	@Test(priority=1,enabled=false)
+	@Test(priority=1,enabled=true)
 	public void VerifyTheBrandNameCodeProductName_001()
 	{
 		p=new ProductDisplay_Page();
@@ -23,7 +23,7 @@ public class TC_ProductDisplay extends Basepage{
 		Boolean Actualcode=p.ProducName();
 		Assert.assertEquals(Actualcode, expected);
 	 }
-	@Test(priority=2,enabled=false)
+	@Test(priority=2,enabled=true)
 	public void VerifyAvailabilityStatus()
 	{
 		p=new ProductDisplay_Page();
@@ -33,7 +33,7 @@ public class TC_ProductDisplay extends Basepage{
         Boolean ActualAvailabiltyStatus=p.AvailabilityStatus();
         Assert.assertEquals(ActualAvailabiltyStatus, expected);
      }
-	@Test(priority=3,enabled=false)
+	@Test(priority=3,enabled=true)
 	public void VerifyTheDefaultQuantiyOne()
 	{
 		p=new ProductDisplay_Page();
@@ -47,7 +47,7 @@ String ActualupdateValue=p.QuantityFieldIncrease("3");
 Assert.assertEquals(ActualupdateValue, "3");
            p.AddToCart();
       }
-	@Test
+	@Test(priority=4)
 	public void VerifyRatingSucessMessage()
 	{
 		p=new ProductDisplay_Page();

@@ -21,7 +21,7 @@ public class TC_WishList extends Basepage
 	    l.submitt();
 	}
    
-	@Test(enabled=true)
+	@Test(priority=1)
 	public void VerifyAddingProductWishList_001()
 	{   
 		common();
@@ -36,7 +36,7 @@ Boolean ActualDisplay1=w.ProductInWishList();
 Assert.assertTrue(ActualDisplay1,"iMac");
 log.info("product successfully added to wishlist");
         }
-	@Test
+	@Test(priority=2)
 	public void VerifyAddingProductWishListFromFeaturedOption_002() throws InterruptedException
     {   common();
     w.yourstore();
