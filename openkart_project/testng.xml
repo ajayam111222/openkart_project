@@ -4,7 +4,7 @@
 <listeners>
 <listener class-name="com.openkart.Utility.Reporting"></listener>
 </listeners>
-<parameter name="browser" value="edge"></parameter>
+<parameter name="browser" value="chrome"></parameter>
   <test  name="Test">
     <classes>
       <class name="com.openkart.Testclass.TC_REGISTER_001"/>
